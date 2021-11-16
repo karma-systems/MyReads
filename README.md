@@ -4,18 +4,20 @@ This is My Reads application for the final assessment of Udacity's React Fundame
 I've used Udacity starter code then I've added the React code to achieve the application interactivity with the end-user.
 
 
-# Table of Contents
+## Table of Contents
 
 - [Project Title](#my-reads-application)
 - [Table of contents](#table-of-contents)
 - [Project Description](#project-description)
 - [Installation](#installation)
+- [Project Structure](#project-structure)
+- [Backend Server](#backend-server)
 - [License](#license)
 - [Used Technologies](#used-technologies)
 - [Developer](#developer)
 - [Footer](#footer)
 
-# Project Description
+## Project Description
 
 MyReads Application is a simple library organizer that you can arrange your readings on shelves. You can dynamically move
 your book from want to read to currently reading to read shelves and so on.
@@ -24,12 +26,12 @@ your book from want to read to currently reading to read shelves and so on.
 
 To get started you have to do the following steps:
 
-* colone my application to your local machine using the GitHub instructions.
+* colne my application to your local machine using the GitHub instructions.
 * install all project dependencies with `npm install`
 * start the development server with `npm start`
 
 [(Back to home)](#table-of-contents)
-## Project structure
+## Project Structure
 ```bash
 ├── CONTRIBUTING.md
 ├── README.md - This file.
@@ -104,19 +106,19 @@ search(query)
 ## Important
 The backend API uses a fixed set of cached search results and is limited to a particular set of search terms, which can be found in [SEARCH_TERMS.md](SEARCH_TERMS.md). That list of terms are the _only_ terms that will work with the backend, so don't be surprised if your searches for Basket Weaving or Bubble Wrap don't come back with any results.
 
-# License
+## License
 
 This is a free application
 
-# Used Technologies
+## Used Technologies
 
 This project had been developed using HTML, CSS, and React.js.
 
-# Developer
+## Developer
 
 This Project had been developed By: Ashraf Kamel.
 
-# Footer
+## Footer
 
 It is my pleasure to thank Udacity and Egypt FWD teams for their usual technical support.
 
