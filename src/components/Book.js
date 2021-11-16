@@ -4,7 +4,7 @@ import propTypes from 'prop-types'
 const Book = (props) => {
     const {book, shelf, updateShelf} = props;
     let bookImage = book.imageLinks ? book.imageLinks.thumbnail : '';
-    console.log(book);
+    //console.log(book);
     return (
         <div className="book">
             <div className="book-top">

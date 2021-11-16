@@ -10,8 +10,8 @@ const BooksApp = ()=>{
 let [books, setBooks] = useState([]);
 
 useEffect(()=>{
-  BooksAPI.getAll().then((booksResult) => {
-    setBooks(booksResult)
+  BooksAPI.getAll().then((allBooksResult) => {
+    setBooks(allBooksResult)
 })});
 
  const updateShelf = (book, shelf) => {
@@ -32,7 +32,7 @@ useEffect(()=>{
               updateShelf = {updateShelf}
             />
             }/>
-         <Route path="/search" exact element = {
+         <Route exact path="/search" element = {
           <SearchPage
            books={books}
             updateShelf={updateShelf}
